@@ -25,7 +25,7 @@ export const ShowNumber = () => {
                     setArrayNumber(v => [...v, newNumber]);
                     setCountNumber(v => v+1)
 
-                }, 300)
+                }, 2000)
             )
 
             setStatus("working")
