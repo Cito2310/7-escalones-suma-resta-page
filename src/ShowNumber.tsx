@@ -8,7 +8,7 @@ export const ShowNumber = () => {
     const [arrayNumber, setArrayNumber] = useState<string[]>([]);
     const [result, setResult] = useState(0);
 
-    const randomNumber = () => Math.floor(Math.random()*20)+1;
+    const randomNumber = () => Math.floor(Math.random()*12)+1;
     const randomBoolean = () => !!Math.round(Math.random());
     const getSymbol = (isPositive: boolean) => isPositive ? "+" : "-";
 
